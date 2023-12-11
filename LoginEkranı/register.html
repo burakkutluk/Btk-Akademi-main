@@ -1,0 +1,73 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Sign Up</title>
+    <link
+      rel="stylesheet"
+      href="https://stackpath.bootstrapcdn.com/bootstrap/4.5.0/css/bootstrap.min.css"
+    />
+    <link rel="stylesheet" href="style.css" />
+  </head>
+  <body>
+    <div class="container">
+      <h2 class="text-center">Create Account</h2>
+
+      <form>
+        <div class="form-group">
+          <input
+            type="text"
+            class="form-control"
+            placeholder="Your Name"
+            id="name"
+            required
+          />
+        </div>
+
+        <div class="form-group">
+          <input
+            type="email"
+            class="form-control"
+            placeholder="Your Email"
+            id="email"
+            required
+          />
+        </div>
+
+        <div class="form-group">
+          <input
+            type="password"
+            class="form-control"
+            placeholder="Password"
+            id="password"
+            required
+          />
+        </div>
+
+        <div class="form-group">
+          <input
+            type="password"
+            class="form-control"
+            placeholder="Repeat Your Password"
+            id="repeatPassword"
+            required
+          />
+        </div>
+
+        <div class="form-group form-check">
+          <input type="checkbox" class="form-check-input" id="agree" required />
+          <label class="form-check-label" for="agree"
+            >I agree all statements in Terms of service</label
+          >
+        </div>
+
+        <button type="submit" class="btn btn-primary">Sign Up</button>
+      </form>
+
+      <p class="text-center mt-3">
+        Have already an account? <a href="login.html">Login here</a>
+      </p>
+    </div>
+  </body>
+</html>
